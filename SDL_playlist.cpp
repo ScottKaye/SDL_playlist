@@ -1,6 +1,3 @@
-#ifndef SDL_PLAYLIST_C_
-#define SDL_PLAYLIST_C_
-
 #include <SDL.h>
 #include <algorithm>
 #include <iostream>
@@ -175,5 +172,3 @@ void SDL_playlist::mSetStatus(SDL_playlist_status status) {
 
 	//TODO call callback
 }
-
-#endif;
