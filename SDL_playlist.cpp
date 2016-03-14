@@ -45,7 +45,6 @@ void SDL_playlist::Initialize(SDL_playlist_options options) {
 	for (unsigned i = 0; i < filenames.size(); ++i) {
 		SDL_playlist_track* track = new SDL_playlist_track(filenames[i]);
 		mTracks.insert(std::pair<int, SDL_playlist_track*>(i, track));
-		track->Load();
 	}
 
 	// Sort filenames
