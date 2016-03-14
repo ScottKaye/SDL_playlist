@@ -14,11 +14,11 @@
 #include <Windows.h>
 
 // Externals
-SDL_playlist_options						SDL_playlist::mOptions;
-std::map<unsigned, SDL_playlist_track*>		SDL_playlist::mTracks;
-SDL_playlist_status							SDL_playlist::mStatus = SDL_playlist_status::Loading;
-unsigned									SDL_playlist::mCurrentTrack = 0;
-Uint32										SDL_playlist::mSongStart = 0;
+SDL_playlist_options                        SDL_playlist::mOptions;
+std::map<unsigned, SDL_playlist_track*>     SDL_playlist::mTracks;
+SDL_playlist_status                         SDL_playlist::mStatus = SDL_playlist_status::Loading;
+unsigned                                    SDL_playlist::mCurrentTrack = 0;
+Uint32                                      SDL_playlist::mSongStart = 0;
 
 void SDL_playlist::Initialize(SDL_playlist_options options) {
 	mOptions = options;

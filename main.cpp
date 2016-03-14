@@ -9,8 +9,8 @@ namespace {
 	SDL_Window*     g_Window = NULL;
 	int             g_WindowWidth = 0;
 	int             g_WindowHeight = 0;
-	Uint64			g_frameNo = 0;
-	SDL_DisplayMode	g_mode;
+	Uint64          g_frameNo = 0;
+	SDL_DisplayMode g_mode;
 
 	SDL_Renderer*   g_Renderer = NULL;
 	const Uint8*    g_KeyStates = NULL;
