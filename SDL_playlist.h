@@ -52,7 +52,6 @@ struct SDL_playlist_track {
 	}
 
 	void Unload() {
-		std::cout << "unloading " << Path << std::endl;
 		if (Stream) {
 			Mix_FreeMusic(Stream);
 			Stream = NULL;

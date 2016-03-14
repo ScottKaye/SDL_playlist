@@ -29,8 +29,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="LICENSE" />
-    <None Include="README.md" />
-    <None Include="music\.gitkeep" />
   </ItemGroup>
 </Project>
